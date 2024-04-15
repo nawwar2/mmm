@@ -1,51 +1,181 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
-    background:-webkit-linear-gradient(top , rgb(33, 151, 135) , rgb(173, 177, 68) )
-}
-header{
-    width: 100%;
-    height: 41px;
-    background:-webkit-linear-gradient(bottom , rgba(175, 104, 37, 0.655) , rgb(122, 62, 121) )
-}
-.home{
-    margin-left: 90%;
-}
-li{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-img{
-    background-size: cover;
-    margin-left: 150px;
-}
-p{
-    text-align: center;
-}
-.tit{
-    text-align: right;
-}
-.tit1{
-    text-align: center;
-}
-.foot{
-    display: grid;
-    grid-template-columns: repeat(30% , 30% , 30%);
-    background-color: black;
-    width: 100%;
-    height: 400px;
+    width: 100vw;
+    height: 100vh;
 }
 .div1{
-    column-count: 3;
-    column-gap: 10px;
-    color: #ffffff;
+    width: 250px;
+    height: 150px;
+    animation-name: change1 ;
+    background-color: rgb(0, 0, 0);
+    animation-duration: 3s;
+    position: absolute;
+    /* animation-delay: 3s; */
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    background-size: cover;
 }
-h6{
-    text-align: center;
-    color: #ffffff;
+@keyframes change1{
+    from{background-image: url(../img/10.jpg); left: 2%;}
+    to{background-image: url(../img/12.jpg); left: 83%;}
 }
-section{
-    color: rgb(0, 0, 0);
+.div2{
+    width: 250px;
+    height: 150px;
+    animation-name: change2 ;
+    animation-duration: 3s;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    top: 160px;
+    left: 83%;
+}
+@keyframes change2{
+    from{background-image: url(../img/3.jpeg); left: 5px;}
+    to{background-image: url(../img/4.jpeg); left: 83%;}
+}
+.div3{
+    width: 250px;
+    height: 150px;
+    animation-name: change3 ;
+    animation-duration: 3s;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    top: 310px;
+}
+@keyframes change3{
+    from{background-image: url(../img/5.jpeg); left: 2%;}
+    to{background-image: url(../img/6.jpeg); left: 83%;}
+}
+.div4{
+    width: 250px;
+    height: 150px;
+    animation-name: change4 ;
+    animation-duration: 3s;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    animation-delay: 9s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    top: 460px;
+    left: 83%;
+}
+@keyframes change4{
+    from{background-image: url(../img/7.jpeg); left: 5px;}
+    to{background-image: url(../img/8.jpeg); left: 83%;}
+}
+.div5{
+    width: 250px;
+    height: 150px;
+    animation-name: change5 ;
+    animation-duration: 3s;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    animation-delay: 12s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    background-size: cover;
+    top: 610px;
+}
+@keyframes change5{
+    from{background-image: url(../img/رسم\ شخصيه🤍.jpeg); left: 2%;}
+    to{background-image: url(../img/9.jpg); left: 83%;}
+}
+.div6{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(170, 96, 96);
+    animation-name: change6 ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 15s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    top: 760px;
+    left: 83%;
+}
+@keyframes change6{
+    0%{background-color: rgb(0, 0, 0); left: 5px;}
+    50%{background-color:  rgba(215, 66, 29, 0.182)}
+    100%{background-color:  rgb(255, 0, 0); left: 83%;}
+}
+.div7{
+    width: 250px;
+    height: 150px;
+    background-color:rgb(255, 157, 0);
+    animation-name: change7 ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 18s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    top: 910px;
+}
+@keyframes change7{
+    0%{background-color:rgb(255, 0, 0); left: 2%;}
+    25%{background-color:rgb(255, 225, 0);}
+    50%{background-color:rgb(17, 255, 0);}
+    75%{background-color:rgb(30, 0, 255);}
+    100%{background-color: black; left: 83%;}
+}
+.div8{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(0, 255, 174, 0.737);
+    animation-name: change8 ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 21s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    top: 1060px;
+    left: 83%;
+}
+@keyframes change8{
+    from{background-color: rgb(0, 0, 0); left: 5px;}
+    to{background-color:  rgba(48, 255, 189, 0.737); left: 83%;}
+}.div9{
+    width: 250px;
+    height: 150px;
+    background-color:rgba(119, 0, 255, 0.645);
+    animation-name: change9 ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 24s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    top: 1210px;
+}
+@keyframes change9{
+    from{background-color:rgba(98, 50, 153, 0.645); left: 2%;}
+    to{background-color: black; left: 83%;}
+}
+.div10{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 0, 140, 0.611);
+    animation-name: change10 ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 27s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    top: 1360px;
+    left: 83%;
+}
+@keyframes change10{
+    from{background-color: rgb(0, 0, 0); left: 5px;}
+    to{background-color:  rgba(193, 43, 125, 0.611); left: 83%;}
 }
